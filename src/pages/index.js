@@ -12,10 +12,7 @@ export default function Home({ data }) {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} className="list-posts">
             <Link to={node.fields.slug}>
-              <h3>
-                {node.frontmatter.title}
-                <span>— {node.frontmatter.author}</span>
-              </h3>
+              <h3>{node.frontmatter.title}</h3>
             </Link>
 
             <p>{node.excerpt}</p>

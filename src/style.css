@@ -111,6 +111,12 @@ ol li ol {
   margin-right: 0.5rem;
 }
 
+.header-index {
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
 blockquote {
   margin: 2rem 0;
   padding: 1rem;
@@ -631,4 +637,14 @@ button:hover {
   border: 1px solid #364fc7;
   background: #364fc7;
   color: white;
+}
+
+footer {
+  padding: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-background);
+  justify-content: center;
+  margin-top: 30px;
 }
